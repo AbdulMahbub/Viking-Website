@@ -1,0 +1,260 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+
+body{
+background-color: #000000;
+color: #ABBCE7;
+font-family: Verdana, Arial, sans-serif; 
+background-image: url(stars.jpg);
+}
+
+#lil{
+font-weight:bold;
+font-size: 1.4em;
+text-decoration: underline;
+}
+
+header{
+background-color: #21355A;
+color: #0A1324;
+font-family: Georgia, serif;
+text-align: center;
+letter-spacing: 5px;
+font-size: 1.4em;
+}
+
+h1{
+line-height: 120%;
+padding-left:15px;
+padding-top: 20px;
+height:90px;
+background-image: url(myban.png);
+background-size:contain;
+background-position:right;
+background-repeat:no-repeat;
+margin-bottom:0;
+}
+
+nav{
+float: left;
+width: 150px;
+padding: 20px 5px 0 20px;
+color: #FFFFFF;
+}
+
+nav a{
+	font-style:italic;
+	text-decoration: none;
+}
+
+nav a:link { color : #00030F; }
+nav a:visited { color : #FFFFFF; }
+nav a:hover{ color : #574F7E; }
+
+nav ul{
+	list-style-type: none;
+    margin: 0;
+	padding-left: 0;
+}
+
+h2{
+color: #21355A;
+font-family: Georgia, serif;
+text-decoration: underline;
+}
+
+
+dt{
+color:#000033;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.vikingz{
+	color: #000033;
+	font-size: 1.2em;
+}
+
+footer{
+font-size: .70em;
+font-style: italic;
+text-align: center;
+padding:15px;
+margin-left: 160px;
+background-color: #FFFFFF;
+}
+
+main{
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #FFFFFF;
+	margin-left: 160px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#sidewrap{
+width: 85%;
+margin-right: auto;
+margin-left: auto;
+background-color: #1B2033;
+min-width: 600px;
+max-width: 1024px;
+box-shadow: 3px 3px 3px #7A8B95;
+}
+
+#myweapon{
+	background-image: url(weapons.jpg);
+	height: 350px;
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	margin-left: 160px;
+}
+
+#myship{
+	background-image: url(vboat1.jpg);
+	height: 350px;
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	margin-left: 160px;
+}
+
+#religious{
+	background-image: url(thor.gif);
+	height: 350px;
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	margin-left: 160px;
+}
+
+#ngod{
+
+	background-image: url(god3.png), url(odin.png), url(god2.png);
+	height: 350px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:5px 15px, 380px 15px, 675px 15px;
+	margin-left: 160px;
+	background-color: #FFFFFF;
+}
+
+#minisword{
+background-image: url(sword.png);
+background-size:contain;
+background-position:110px 0;
+background-repeat:no-repeat;
+}
+
+#miniaxe{
+background-image: url(axe.png);
+background-size:contain;
+background-position:80px 0;
+background-repeat:no-repeat;
+}
+
+#minispear{
+background-image: url(spear.png);
+background-size:contain;
+background-position:100px 0;
+background-repeat:no-repeat;
+}
+
+table{
+	border: 1px solid #000000;
+}
+
+td, th { 
+padding: 15px 15px 15px 15px; 
+border: 1px solid #000000; 
+}
+
+th{
+	text-decoration:underline;
+	font-size: 1.3em;
+}
+
+td { text-align: center; }
+
+.mooove { text-align: left; }
+
+tr:nth-of-type(odd) {background-color: #21355A; }
+
+/*To Make Form Even*/
+label{
+	float:left;
+	display: block;
+	width: 300px;
+	padding-right: 1em;
+}
+
+input{
+	display:block;
+	margin-bottom: 1em;
+}
+
+textarea{
+	display:block;
+	margin-bottom: 1em;
+}
+
+#mySubmit{
+	margin-left: 300px;
+}
+
+#myReset{
+	margin-left: 300px;
+}
+
+#colorform{
+	color: #21355A;
+}
+
+/*Mobile*/
+@media only all and (max-width: 768px) {
+	h1 { height: 100%;
+	     font-size: 1.3em;
+		 padding-left: 0.3em; }
+		 
+	nav { padding: 0;
+		  width: auto;
+		  float:none;
+		  
+		  }
+	#lil{
+		font-size:1em;
+	}
+	nav a { display: block;
+	       padding: 0.2em;
+		   font-size: 1.0em; 
+		   border-bottom: 1px solid #330000; }
+		   
+	nav ul { margin: 0;
+	       padding: 0; }
+		   
+	nav li { display: block; 
+	       margin: 0;
+		   padding: 0; }
+		   
+	main { padding: 0.1em 0.3em 0.1em 0.4em;
+			font-size:0.8em;
+			margin-left: 0;}
+	
+	#myweapon, #miniaxe, #minisword, #minispear, #myship, #religious,
+		#ngod{ display: none; }
+		
+	footer { padding: 0;
+			margin-left:0;}
+			
+}
+
+
+
+
+
+
+
+
+
+

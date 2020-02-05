@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Vikings-Sign Up</title>
+<meta charset="utf-8">
+<link href="vikings2.css" rel="stylesheet" media="screen">
+<link href="myPrint2.css" rel="stylesheet" media="print">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+
+<body>
+<div id="sidewrap">
+
+<header>
+<h1>Sign Up</h1>
+</header>
+
+<nav>
+<ul>
+	<li id="lil">Links:</li>
+	<li> &nbsp;</li>
+	<li><a href="myPage1.html">Home</a></li>
+	<li><a href="myPage2.html">Weapons</a></li>
+	<li><a href="myPage3.html">Ships</a></li>
+	<li><a href="myPage4.html">Religion</a></li>
+	<li><a href="myPage5.html">Gods</a></li>
+	<li><a href="myPage6.html">Sign Up</a></li>
+</ul>
+</nav>
+<main>
+
+<h2>Viking Fan Club Form</h2>
+
+<p>
+Fill out this form if you are in the USA & interested in joining our Viking Fan Club. We will send you weekly
+information about Vikings and notify you whenever we are having a club meeting.
+<br><br><br>
+</p>
+
+
+<script>
+alert ("Welcome to the sign up page!");
+</script>
+
+<script>
+window.onbeforeunload = function()
+{
+return "Are you sure you want to leave?";
+};
+</script>
+
+<form method="post"
+action="mailto:abdulmahbub@gmail.com" enctype="text/plain">
+
+<label for="myFName">First Name:</label>
+<input type="text" name="First Name" required="required" id="myFName">
+
+<label for="myLName">Last Name:</label>
+<input type="text" name="Last Name" required="required" id="myLName">
+
+<label for="myEmail">E-mail:</label>
+<input type="email" name="Email" required="required" id="myEmail">
+
+<label for="myState">State:</label>
+<input type="text" name="State" required="required" id="myState">
+
+<label for="myComments">Explain your reason for joining:</label>
+<textarea name="Comments" rows="10" cols="40"
+required="required" id="myComments">
+</textarea>
+
+<input type="submit" value="Submit" id="mySubmit">
+<input type="reset" value="Reset" id="myReset">
+
+
+</form>
+
+</main>
+
+<footer>
+Copyright &copy; 2019 Vikings<br>
+<a href="mailto:abdulmahbub@gmail.com">abdulmahbub@gmail.com</a>
+</footer>
+
+</div>
+</body>
+</html>
